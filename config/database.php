@@ -5,10 +5,10 @@ function connect() {
 	// $pdo = new PDO($pdoString, 'root', 'password');
 	// return $pdo;
 
-    $host = "127.0.0.1";
-    $dbuser = "root";
-    $dbpassword = "password";
-    $dbname = "loadbalance_login";
+    $host = "database-1.cwlrobvswhym.us-east-1.rds.amazonaws.com";
+    $dbuser = "admin";
+    $dbpassword = "Qwertyuiopasdfghjkl";
+    $dbname = "loadbalance_session";
     // $dbname = '62_20201706_124259';
     $portno = 3306;
 
