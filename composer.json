@@ -1,0 +1,5 @@
+{
+    "require": {
+        "stefangabos/zebra_session": "^3.1"
+    }
+}

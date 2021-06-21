@@ -1,0 +1,126 @@
+
+/*Globle ----------------------------------------------------------------------------------------------*/
+
+html{box-sizing:border-box; }*,*:before,*:after{box-sizing:inherit}
+*{font-size:100%; }
+
+
+/*Form Globle */
+input[type=text],input[type=email],input[type=number],input[type=url],input[type=password],input[type=tel],
+select,
+textarea{border:1px #999 solid;border-radius:0; width: 100%; height: 40px; color:#555555; padding: 20px; margin: 10px 2px;}
+
+input::placeholder,
+select::placeholder,
+textarea::placeholder {color:#ccc !important; font-size: 13px;}
+
+
+/*Button Globle */
+.btn { border: none; background-color: rgb(0,155,210); color: white; text-align: center; 
+		padding: 12px 24px;  display: inline-block; margin: 4px 2px; cursor: pointer;}
+.btn:hover {opacity: 0.8 !important; }
+
+
+/*Respnsive Colum Globle ----------------------------------------------------------------------------------*/
+
+
+/* Fix Container*/
+.con-fix:after,.con-fix:before{content:"";display:table;clear:both}
+.con-fix {max-width:1000px; margin-left:auto; margin-right:auto;}
+
+
+/* full column*/
+.col-full{float:left; width:100%; padding:20px; position: relative;}
+/*End full column*/
+
+
+/*half column*/
+.col-half{float:left; width:100%; padding:20px; position: relative;}@media (min-width:768px){.col-half{width:49.999%;}}
+
+.col-right {float:right!important;}
+/*End half Column*/
+
+
+/* ---------------------------------------------------------------------------------------------------*/
+
+
+/* 0-1 Log-in --------------------------------------------------------------------------------------- */
+
+
+/*Body login & Signup */
+.body-login {border-top: 20px solid rgb(0,155,210); background-color: rgb(242,242,242); margin:0;}
+
+/*Container login */
+.container-login {margin-top: 4%;}
+
+/*start of logo*/
+.col-logo { margin:auto; width:240px;}
+/*end of logo*/
+
+/*Start Row*/
+.row-login { margin-top:2%; }
+/*end row*/
+
+/*Start Inner container*/
+
+/*Start Half*/
+
+/*Start News*/
+.news { color:#04a3f3; background-color:#eff9f9!important; padding: 30px 50px; 
+		border:1px #ddd solid; min-height: 330px;}
+/*End News*/
+
+/*Start log-in*/
+.login { color:#555!important; background-color:#fff!important; padding: 30px 40px; 
+		border:1px #ddd solid;}
+
+.btn-signin {width: 100% !important; margin-bottom: 50px;}
+
+.btn-signup {width: 100% !important; border: 1px #009bd2 solid; background-color:#eff9f9; color: #009bd2;
+			 margin-bottom: 20px; }
+/*End log-in*/
+
+
+
+
+/* 0-2 Page: Server & Section ------------------------------------------------------------------------------- */
+
+
+/*Container Section */
+.container-signup { padding:20px; font-size:13px; }
+
+/*Start Row*/
+.row-signup { margin-top:2%; }
+
+/*Start section Fix Container*/
+.con-signup { border:1px #ccc solid; background-color: #fff; }
+.con-top { border-bottom: none}
+.con-bottom { border-top: none;}
+
+/*End Fix Container*/
+
+/*Start full Column*/
+
+/*Start title*/
+.col-title{ border-bottom: 1px #009bd2 solid; color: #009bd2; padding:0 20px;}
+/*End title*/
+
+/*Start caption */
+.caption {margin-top: -2px; margin-bottom: -5px; padding-left: 5px; }
+/*end caption */
+
+/*Start server name */
+.server {padding-left: 5px; font-size: 30px; }
+.section {padding-left: 5px; font-size: 30px; color: #069; }
+/*end server name */
+
+
+/*Start Button*/
+.btn-refresh {width: 50% !important;}
+.btn-Logout {width: 45% !important; float:right; background: gray !important;}
+/*End Button*/
+
+
+
+
+
