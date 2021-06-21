@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 				<div class="col-half">  <!-- start half container -->
 							
 					<p class="caption">FULL NAME</p>
-					<p class="server">WEB SEVER 01</p>	
+					<p class="server">WEB SEVER 02</p>	
 											
 				</div>  <!-- End half container -->
 				
@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 				<div class="col-half"><!-- start half container -->
 											
 					<p class="caption">SECTION NAME</p>
-					<p class="section">SECTION 01</p>
+					<p class="section">SECTION 02</p>
 									
 				</div>  <!-- End half container -->
 					

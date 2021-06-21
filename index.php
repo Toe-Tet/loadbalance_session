@@ -79,7 +79,7 @@
 					
 					<br>
 					
-					<p>SERVER 01</p>
+					<p>SERVER 02</p>
 					
 					</div><!-- End news -->
 				
